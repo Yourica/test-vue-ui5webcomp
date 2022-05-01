@@ -3,6 +3,6 @@
 
 <template>
   <main>
-    Hello from the homeview ...
+    Hello from the Homeview ...
   </main>
 </template>
