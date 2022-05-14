@@ -7,5 +7,5 @@
 </script>
 
 <template>
-  Home View !!!
+  Home View !
 </template>
