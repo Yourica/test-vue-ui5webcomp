@@ -1,17 +1,16 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from '@/components/HelloWorld.vue'
+import Shellbar from '@/components/ShellBar.vue'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <HelloWorld msg="Bonjour Vue.js !!!" />
-    </div>
-  </header>
-
+  <Shellbar />
   <RouterView />
 </template>
 
 <style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
 </style>
